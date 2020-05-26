@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite errors="0" failures="0" hostname="MuSen" name="pytest" skipped="0" tests="1" time="0.047"
+               timestamp="2020-05-16T09:47:55.530428">
+        <testcase classname="testcase.test_demo1" file="testcase\test_demo1.py" line="32" name="test_demo1_01"
+                  time="0.002"></testcase>
+    </testsuite>
+</testsuites>

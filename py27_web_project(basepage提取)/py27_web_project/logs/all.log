@@ -1,0 +1,177 @@
+2020-05-23 11:29:45,282 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@placeholder="手机号"]')--成功
+2020-05-23 11:29:45,459 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-05-23 11:29:45,569 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//button[text()='登录']")--点击成功
+2020-05-23 11:30:31,817 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "(//a[text()='抢投标'])[1]")--点击成功
+2020-05-23 11:30:31,979 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:32,515 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:30:32,789 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:33,315 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:30:33,443 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:33,971 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:30:34,146 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:34,716 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:30:34,847 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:35,406 -- [base_page.py-->line:155] - ERROR: 点击元素--('xpath', '//button[@class="btn btn-special height_style"]')--失败
+2020-05-23 11:30:35,406 -- [base_page.py-->line:156] - ERROR: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+Traceback (most recent call last):
+  File "C:\project\py27_class\py27_web_project\common\base_page.py", line 152, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+
+2020-05-23 11:30:35,790 -- [base_page.py-->line:202] - INFO: 错误页面截图成功，图表保存的路径:C:\project\py27_class\py27_web_project\error_image\投资_点击投资_1590204635.4108775.png
+2020-05-23 11:30:35,978 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:36,537 -- [base_page.py-->line:155] - ERROR: 点击元素--('xpath', '//button[@class="btn btn-special height_style"]')--失败
+2020-05-23 11:30:36,537 -- [base_page.py-->line:156] - ERROR: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+Traceback (most recent call last):
+  File "C:\project\py27_class\py27_web_project\common\base_page.py", line 152, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+
+2020-05-23 11:30:36,923 -- [base_page.py-->line:202] - INFO: 错误页面截图成功，图表保存的路径:C:\project\py27_class\py27_web_project\error_image\投资_点击投资_1590204636.5385976.png
+2020-05-23 11:30:37,107 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:37,652 -- [base_page.py-->line:155] - ERROR: 点击元素--('xpath', '//button[@class="btn btn-special height_style"]')--失败
+2020-05-23 11:30:37,652 -- [base_page.py-->line:156] - ERROR: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+Traceback (most recent call last):
+  File "C:\project\py27_class\py27_web_project\common\base_page.py", line 152, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+
+2020-05-23 11:30:38,026 -- [base_page.py-->line:202] - INFO: 错误页面截图成功，图表保存的路径:C:\project\py27_class\py27_web_project\error_image\投资_点击投资_1590204637.652615.png
+2020-05-23 11:30:38,119 -- [base_page.py-->line:146] - INFO: 获取元素--('xpath', '//input[@data-amount]')--属性成功
+2020-05-23 11:30:38,224 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:30:38,785 -- [base_page.py-->line:155] - ERROR: 点击元素--('xpath', '//button[@class="btn btn-special height_style"]')--失败
+2020-05-23 11:30:38,785 -- [base_page.py-->line:156] - ERROR: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+Traceback (most recent call last):
+  File "C:\project\py27_class\py27_web_project\common\base_page.py", line 152, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <button class="btn btn-special height_style">...</button> is not clickable at point (1223, 543). Other element would receive the click: <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div>
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 10.0.17763 x86_64)
+
+2020-05-23 11:30:39,180 -- [base_page.py-->line:202] - INFO: 错误页面截图成功，图表保存的路径:C:\project\py27_class\py27_web_project\error_image\投资_点击投资_1590204638.78604.png
+2020-05-23 11:33:41,007 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@placeholder="手机号"]')--成功
+2020-05-23 11:33:41,173 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-05-23 11:33:41,319 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//button[text()='登录']")--点击成功
+2020-05-23 11:34:27,313 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "(//a[text()='抢投标'])[1]")--点击成功
+2020-05-23 11:34:27,458 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:28,021 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:34:28,021 -- [test_invest.py-->line:107] - INFO: 用例--输入金额非10的整数倍---执行通过
+2020-05-23 11:34:28,120 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:28,649 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:34:28,649 -- [test_invest.py-->line:107] - INFO: 用例--输入金额为字母---执行通过
+2020-05-23 11:34:28,764 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:29,289 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:34:29,289 -- [test_invest.py-->line:107] - INFO: 用例--输入金额为特殊字符---执行通过
+2020-05-23 11:34:29,409 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:30,507 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:34:30,711 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.2024555206298828秒
+2020-05-23 11:34:30,898 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:34:30,900 -- [test_invest.py-->line:129] - INFO: 用例--输入金额为负数---执行通过
+2020-05-23 11:34:31,084 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:32,147 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:34:32,377 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.23033595085144043秒
+2020-05-23 11:34:32,547 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:34:32,547 -- [test_invest.py-->line:129] - INFO: 用例--输入金额为0---执行通过
+2020-05-23 11:34:32,677 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:33,732 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:34:33,889 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.15658116340637207秒
+2020-05-23 11:34:34,002 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:34:34,003 -- [test_invest.py-->line:129] - INFO: 用例--输入金额为空格---执行通过
+2020-05-23 11:34:34,145 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:35,209 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:34:35,904 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.6949617862701416秒
+2020-05-23 11:34:35,986 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:34:35,986 -- [test_invest.py-->line:129] - INFO: 用例--输入金额为10的整数倍，但少于100---执行通过
+2020-05-23 11:34:36,017 -- [base_page.py-->line:146] - INFO: 获取元素--('xpath', '//input[@data-amount]')--属性成功
+2020-05-23 11:34:36,124 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:34:37,181 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:34:37,386 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[text()="投标成功！"]')--等待成功,等待时间0.20378589630126953秒
+2020-05-23 11:34:37,486 -- [base_page.py-->line:94] - INFO: 元素--('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')--可点击等待成功,等待时间0.06577730178833008秒
+2020-05-23 11:35:06,475 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//li[@class="color_sub"]')--获取文本成功
+2020-05-23 11:35:06,487 -- [test_invest.py-->line:157] - INFO: 用例--投资金额为0---执行通过
+2020-05-23 11:36:31,020 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@placeholder="手机号"]')--成功
+2020-05-23 11:36:31,177 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-05-23 11:36:31,357 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//button[text()='登录']")--点击成功
+2020-05-23 11:37:17,689 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "(//a[text()='抢投标'])[1]")--点击成功
+2020-05-23 11:37:17,939 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:18,018 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:37:18,018 -- [test_invest.py-->line:108] - INFO: 用例--输入金额非10的整数倍---执行通过
+2020-05-23 11:37:18,145 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:18,175 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:37:18,176 -- [test_invest.py-->line:108] - INFO: 用例--输入金额为字母---执行通过
+2020-05-23 11:37:18,313 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:18,340 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+2020-05-23 11:37:18,340 -- [test_invest.py-->line:108] - INFO: 用例--输入金额为特殊字符---执行通过
+2020-05-23 11:37:18,553 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:18,650 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:37:18,847 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.19682741165161133秒
+2020-05-23 11:37:19,012 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:37:19,013 -- [test_invest.py-->line:130] - INFO: 用例--输入金额为负数---执行通过
+2020-05-23 11:37:19,138 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:19,213 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:37:19,917 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.7033090591430664秒
+2020-05-23 11:37:20,027 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:37:20,028 -- [test_invest.py-->line:130] - INFO: 用例--输入金额为0---执行通过
+2020-05-23 11:37:20,154 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:20,227 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:37:20,408 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.17905902862548828秒
+2020-05-23 11:37:20,520 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:37:20,520 -- [test_invest.py-->line:130] - INFO: 用例--输入金额为空格---执行通过
+2020-05-23 11:37:20,642 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:20,723 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:37:20,912 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[@class="text-center"]')--等待成功,等待时间0.18852567672729492秒
+2020-05-23 11:37:21,023 -- [base_page.py-->line:161] - INFO: 元素--('xpath', "//a[text()='确认']")--点击成功
+2020-05-23 11:37:21,024 -- [test_invest.py-->line:130] - INFO: 用例--输入金额为10的整数倍，但少于100---执行通过
+2020-05-23 11:37:21,054 -- [base_page.py-->line:146] - INFO: 获取元素--('xpath', '//input[@data-amount]')--属性成功
+2020-05-23 11:37:21,213 -- [base_page.py-->line:179] - INFO: 文本内容输入--('xpath', '//input[@data-amount]')--成功
+2020-05-23 11:37:21,284 -- [base_page.py-->line:161] - INFO: 元素--('xpath', '//button[@class="btn btn-special height_style"]')--点击成功
+2020-05-23 11:37:21,521 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '//div[text()="投标成功！"]')--等待成功,等待时间0.23676443099975586秒
+2020-05-23 11:37:21,615 -- [base_page.py-->line:94] - INFO: 元素--('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')--可点击等待成功,等待时间0.06282854080200195秒
+2020-05-23 11:37:50,839 -- [base_page.py-->line:130] - INFO: 元素--('xpath', '//li[@class="color_sub"]')--获取文本成功
+2020-05-23 11:37:50,839 -- [test_invest.py-->line:158] - INFO: 用例--投资金额为0---执行通过
